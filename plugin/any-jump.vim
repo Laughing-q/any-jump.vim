@@ -860,8 +860,8 @@ if s:nvim
 end
 
 if g:any_jump_disable_default_keybindings == v:false
-  nnoremap <leader>j  :AnyJump<CR>
-  xnoremap <leader>j  :AnyJumpVisual<CR>
+  nnoremap <leader>aj  :AnyJump<CR>
+  xnoremap <leader>aj  :AnyJumpVisual<CR>
   nnoremap <leader>ab :AnyJumpBack<CR>
   nnoremap <leader>al :AnyJumpLastResults<CR>
 end
